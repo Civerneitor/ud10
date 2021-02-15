@@ -18,8 +18,8 @@ public class adivinaNumeroApp {
 		Ordenador a = new Ordenador();
 		boolean seguir = true;
 		while(seguir) {
-			int b = Integer.parseInt(JOptionPane.showInputDialog("Introduce el numero que ha pensado el ordenador a ver si lo adivinas"));
-			seguir=a.validar(b);
+			//Object b = JOptionPane.showInputDialog("Introduce el numero que ha pensado el ordenador a ver si lo adivinas");
+			seguir=a.validar();
 			
 		}
 	}
